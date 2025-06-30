@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>تواصل معنا</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="news.html">الأخبار</a></li>
+                <li><a href="teams.html">الفرق</a></li>
+                <li><a href="trophies.html">البطولات</a></li>
+                <li><a href="history.html">تاريخ النادي</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>📩 يمكنك التواصل معنا عبر النموذج التالي:</h2>
+        <form action="send_message.php" method="post">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+
+        <h2>📍 معلومات الاتصال:</h2>
+        <p>📞 الهاتف: +20 100 123 4567</p>
+        <p>✉️ البريد الإلكتروني: contact@ahlyclub.com</p>
+        <p>📍 العنوان: مقر النادي الأهلي، الجزيرة، القاهرة، مصر</p>
+
+        <h2>🔗 تابعنا على وسائل التواصل الاجتماعي:</h2>
+        <div class="social-links">
+            <a href="#" target="_blank">🔵 فيسبوك</a>
+            <a href="#" target="_blank">🐦 تويتر</a>
+            <a href="#" target="_blank">📸 إنستجرام</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 نادي الأهلي المصري</p>
+    </footer>
+</body>
+</html>
