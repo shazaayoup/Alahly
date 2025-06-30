@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact | Ahmed Bakr</title>
+  <title>Courses | Ahmed Bakr</title>
   <style>
     body {
       margin: 0;
@@ -57,52 +57,24 @@
       margin: auto;
     }
 
-    .contact-icons {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 40px;
+    .course {
+      background-color: #1b1f30;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      text-align: center;
     }
 
-    .contact-icons a {
-      text-decoration: none;
+    .course h3 {
+      color: #1e90ff;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
     }
 
-    .contact-icons img {
-      width: 50px;
-      height: 50px;
-      transition: transform 0.3s ease;
-    }
-
-    .contact-icons a:hover img {
-      transform: scale(1.2);
-    }
-
-    .form-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 40px;
-    }
-
-    .form-container input, .form-container select, .form-container button {
-      padding: 10px;
-      margin: 10px;
-      width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
+    .course p {
       font-size: 1rem;
-    }
-
-    .form-container button {
-      background-color: #1e90ff;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    .form-container button:hover {
-      background-color: #0069d9;
+      color: #ccc;
     }
 
     nav {
@@ -143,6 +115,10 @@
 
       p {
         font-size: 1rem;
+      }
+
+      .course h3 {
+        font-size: 1.5rem;
       }
 
       nav a {
@@ -206,43 +182,39 @@
     </div>
     
     <nav>
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="courses.html">Courses</a>
-        <a href="Articles.html">Blog</a>
-        <a href="FAQ.html">FAQ</a>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="Articles.html">Blog</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <section>
-    <h2>Contact Me</h2>
-    <p>
-      If you have any questions, would like to inquire about my courses, or need more information, feel free to reach out to me.
-    </p>
-
-    <div class="contact-icons">
-      <!-- Replace with your actual image links -->
-      <a href="https://wa.me/0 12 78521077" target="_blank">
-        <img src="1.png" alt="WhatsApp" />
-      </a>
-      <a href="https://www.facebook.com/profile.php?id=100027513190202" target="_blank">
-        <img src="2.png" alt="Facebook" />
-      </a>
+    <h2>Available Courses</h2>
+    
+    <!-- Course 1 -->
+    <div class="course">
+      <h3>Introduction to Programming (Kids)</h3>
+      <p>This course is designed for children aged 8-14 years old. It introduces them to the basics of programming using fun and interactive tools such as Scratch. The goal is to ignite curiosity and foster a love for coding from an early age.</p>
     </div>
 
-    <div class="form-container">
-      <h3>Send Me a Message</h3>
-      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <input type="number" name="age" placeholder="Your Age" required />
-        <select name="course" required>
-          <option value="">Select Course</option>
-          <option value="kids-programming">Kids Programming</option>
-          <option value="adults-programming">Adults Programming</option>
-        </select>
-        <button type="submit">Send Message</button>
-      </form>
+    <!-- Course 2 -->
+    <div class="course">
+      <h3>Html-CSS Programming (Beginner)</h3>
+      <p>Learn the fundamentals of Html-CSS programming. This course is perfect for absolute beginners and will help you understand basic concepts such as variables, loops, and conditionals. Html-CSS  is a great language to start with and is widely used in various fields like web development.</p>
+    </div>
+
+    <!-- Course 3 -->
+    <div class="course">
+      <h3>Web Development with JavaScript</h3>
+      <p>This course focuses on JavaScript, one of the most powerful and versatile languages for web development. You will learn how to create interactive websites, and work with the Document Object Model (DOM) to manipulate HTML and CSS. A great course for those interested in front-end development.</p>
+    </div>
+
+    <!-- Course 4 -->
+    <div class="course">
+      <h3>Advanced Programming Techniques (Adults)</h3>
+      <p>This advanced course is aimed at individuals who already have a basic understanding of programming. We dive deep into topics like algorithms, data structures, object-oriented programming, and more. A great choice for those who wish to pursue a career in software development or expand their programming skills.</p>
     </div>
   </section>
 

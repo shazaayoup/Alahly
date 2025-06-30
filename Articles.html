@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog | Ahmed Bakr</title>
+  <style>
+    /* نفس التنسيق المستخدم في الصفحات السابقة */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0c0f1a;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to right, #0c0f1a, #1b1f30);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
+      margin-left: 20px;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #1e90ff;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #ccc;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    nav {
+      margin-left: 40px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1e90ff;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      margin-top: 40px;
+      padding: 20px;
+    }
+
+    .blog-post {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #333;
+      border-radius: 5px;
+      background-color: #1b1f30;
+    }
+
+    .blog-post h3 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .blog-post p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #bbb;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      color: #1e90ff;
+    }
+
+    .back-link:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="0.jpg" alt="Ahmed Bakr" class="profile-img" />
+      <div>
+        <h1>Ahmed Bakr</h1>
+        <p>Software Programming Engineer & Instructor</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Latest Articles</h2>
+
+    <div class="blog-post">
+      <h3>How to Start Learning Programming</h3>
+      <p>
+        Programming can seem like a daunting task at first, but with the right guidance and resources, anyone can learn it. In this article, we'll walk you through the basics of getting started with programming.
+      </p>
+    </div>
+
+    <div class="blog-post">
+      <h3>Top Programming Languages for 2025</h3>
+      <p>
+        There are many programming languages out there, but some are more popular than others. In this article, we explore the top programming languages you should learn in 2025 and beyond.
+      </p>
+    </div>
+
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmed Bakr | Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0c0f1a;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to right, #0c0f1a, #1b1f30);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1e90ff;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    /* Media Queries for mobile responsiveness */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      nav a {
+        font-size: 0.9rem;
+        margin: 0 10px;
+      }
+
+      .profile-img {
+        width: 120px;
+        height: 120px;
+      }
+
+      /* Stacked layout for navigation on small screens */
+      nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+
+    /* For very small screens, such as phones in portrait mode */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+
+      nav a {
+        font-size: 0.9rem;
+      }
+
+      .profile-img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="0.jpg" alt="Ahmed Bakr" class="profile-img" />
+    <h1>Ahmed Bakr</h1>
+    <p> Software Engineer & Instructor</p>
+
+    <nav>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="Articles.html">Blog</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+</body>
+</html>
+
